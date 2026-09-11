@@ -1,0 +1,19 @@
+# Environment / secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data generated at runtime (not source)
+backend/chroma_store/
+backend/uploaded_documents/
+backend/app_data.db
+backend/server.log
+
+# OS
+.DS_Store
